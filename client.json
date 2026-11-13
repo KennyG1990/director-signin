@@ -1,0 +1,11 @@
+{
+  "client_id": "https://kennyg1990.github.io/director-signin/client.json",
+  "client_name": "Director",
+  "redirect_uris": [
+    "http://127.0.0.1:8765/oauth/elevenlabs/callback",
+    "http://127.0.0.1:8799/oauth/elevenlabs/callback"
+  ],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none"
+}
